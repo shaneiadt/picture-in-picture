@@ -1,4 +1,6 @@
-# Infinite Scroll
+# Picture-In-Picture
+
+Playing with the [Screen Capture API](https://developer.mozilla.org/en-US/docs/Web/API/Screen_Capture_API)
 
 ## Available Scripts
 
