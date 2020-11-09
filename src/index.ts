@@ -8,7 +8,7 @@ const button: HTMLButtonElement | null = document.querySelector('#btn');
 async function selectMediaStream() {
     try {
         const mediaDevices = navigator.mediaDevices as any;
-        const stream = mediaDevices.getDisplayMedia();
+        const stream = await mediaDevices.getDisplayMedia();
         if (videoEl) {
             videoEl.srcObject = stream;
             videoEl.onloadedmetadata = () => {
